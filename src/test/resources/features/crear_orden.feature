@@ -6,6 +6,7 @@ Feature: Crear y consultar orden en PetStore
     Then el código de respuesta es 200
     And el status es "placed"
 
+ @test2
   Scenario: Consultar orden
     Given una orden con id 1 existe
     When consulto la orden con id 1
